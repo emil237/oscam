@@ -3,11 +3,11 @@
 ##setup command=wget https://raw.githubusercontent.com/emil237/oscam/main/installer.sh -O - | /bin/sh
 #
 echo " download and install oscam emu "
-version=11.708
+version=11.717
 OPKGINSTALL=opkg install --force-overwrite
 MY_URL="https://raw.githubusercontent.com/emil237/oscam/main"
-MY_IPK="enigma2-plugin-softcams-oscam_11.708-emu-r798_all.ipk"
-MY_DEB="enigma2-plugin-softcams-oscam-osdreambox_11.708-emu-r798_all.deb"
+MY_IPK="enigma2-plugin-softcams-oscam_11717-emu-r798_all.ipk"
+MY_DEB="enigma2-plugin-softcams-oscam_11717-emu-r798_all.deb"
 ##############################################################################
 # remove old emu #
 opkg remove enigma2-plugin-softcams-oscam-all-images
